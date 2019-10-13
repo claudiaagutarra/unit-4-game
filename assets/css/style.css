@@ -100,14 +100,12 @@ h1 {
         background-color: rgba(0, 0, 0, 0.5);
     }
     .containerleft {
-        width: 400px;
-        margin: auto;
-        margin-top: 20px;
+       display: none;
     }
     .containerright {
         width: 400px;
         background-color: white;
-        margin: auto;
+        margin-top: 30px;
         font-family: 'Orbitron', sans-serif;
         
     }
