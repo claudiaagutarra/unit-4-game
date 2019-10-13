@@ -80,10 +80,37 @@ h1 {
 #yourscore {
     text-align: center;
     clear: both;
-    padding-top:15px;
+    padding-top: 15px;
 }
 #scoretext {
     text-align: center;
     padding: 30px;
     font-size: 35px;
+}
+
+@media (max-width: 640px) {
+    h1 {
+        font-family: 'Fascinate Inline', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .containerleft {
+        width: 400px;
+        float: left;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .containerright {
+        width: 400px;
+        background-color: white;
+        clear: both;
+        font-family: 'Orbitron', sans-serif;
+        
+    }
+
 }
