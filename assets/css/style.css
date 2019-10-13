@@ -3,57 +3,87 @@ body {
     background-size: cover;
 }
 h1 {
+    font-family: 'Fascinate Inline', cursive;
     font-size: 50px;
     font-weight: bold;
     padding: 30px;
     text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.container {
-    width: 850px;
+.containerleft {
+    width: 400px;
+    float: left;
+    margin-left: 22%;
+}
+.containerright {
+    width: 400px;
     background-color: white;
-    margin: 85px auto 0 auto; 
+    float: left;
+    font-family: 'Orbitron', sans-serif;
+    
 }
 #randomNumber {
     text-align: center;
+    padding: 40px;
+    font-size: 35px;
 }
 #wins {
     text-align: center;
+    padding-bottom: 10px;
+    
 }
 
 #losses {
     text-align: center;
 }
-#yourscore {
-    text-align: center;
-}
+
 
 #rules {
-    text-align: left;
-    width: 600px;
-    padding-left: 100px;
+    text-align: center;
+    padding: 15px 30px 30px 30px;
     line-height: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    font-style: bold;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .firstcrystal {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 8%;
 }
 
 .secondcrystal {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    float:right;
+    margin-right: 8%;
 }
 
 
 .thirdcrystal {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 8%;
 }
 
 .fourthcrystal {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    float:right;
+    margin-right: 8%;
 }
-
+#yourscore {
+    text-align: center;
+    clear: both;
+    padding-top:15px;
+}
 #scoretext {
     text-align: center;
+    padding: 30px;
+    font-size: 35px;
 }

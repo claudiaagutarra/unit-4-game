@@ -9,16 +9,14 @@ $(document).ready(function () {
 
     function winner() {
         wins++;
-        alert("You won!");
+        alert("YOU WON! Press OK to play again!");
         $("#wins").text("Wins: " + wins);
-        alert("Press OK to play again!");
         $("#scoretext").html(0);
     }
     function loser() {
         losses++;
+        alert("You lose! Press OK to play again!");
         $("#losses").text("Losses: " + losses);
-        alert("You lose!");
-        alert("Press OK to play again!");
         $("#scoretext").html(0);
     }
     function restart() {
