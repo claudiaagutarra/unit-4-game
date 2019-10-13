@@ -101,14 +101,13 @@ h1 {
     }
     .containerleft {
         width: 400px;
-        float: left;
-        margin: 0 auto;
+        margin: auto;
         margin-top: 20px;
     }
     .containerright {
         width: 400px;
         background-color: white;
-        clear: both;
+        margin: auto;
         font-family: 'Orbitron', sans-serif;
         
     }
