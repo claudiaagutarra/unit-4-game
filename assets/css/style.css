@@ -11,13 +11,27 @@ h1 {
 .container {
     width: 850px;
     background-color: white;
-    margin: 0 auto;
+    margin: 85px auto 0 auto; 
 }
-#rules {
+#randomNumber {
     text-align: center;
-    width: 800px;
-    margin: 0 auto;
-    line-height: 20px;
+}
+#wins {
+    text-align: center;
+}
+
+#losses {
+    text-align: center;
+}
+#yourscore {
+    text-align: center;
+}
+
+#rules {
+    text-align: left;
+    width: 600px;
+    padding-left: 100px;
+    line-height: 30px;
 }
 .firstcrystal {
     width: 200px;
